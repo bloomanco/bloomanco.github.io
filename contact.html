@@ -1,0 +1,94 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Reset default browser settings-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <link rel="shortcut icon" href="./img/favicon1.ico" >
+        <title>Contact Cherise</title>
+    </head>
+
+    <body>
+        <header class="page-header">
+            <img src="img/c.png" alt="LOGO" style="width: 200px; height: 70px" />
+
+            <nav class="page-header__item">
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation">
+                        <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header> 
+      
+        <section class="contact-page">
+            <h2>Contact</h2>
+  <p> Chrissy Smith<br />
+    564 South shore ln,<br />
+     Queens, Ny, 11629<br />
+    </p>
+
+  <p>
+     <a href="tel:+2126347845">Tel +212 634 7845</a>
+     </p>
+    <p>
+      Email:<a href="mailto:chrissy123@gmail.com">chrissy123@gmail.com</a>
+      </p>
+
+    <form class="form-contact">
+    <h2>Leave Me a message</h2>
+
+ <div>
+     <label class="standard-label" for="contact-name">Name:</label>
+        <input type="text" id="contact-name" placeholder="Your Name" required="">
+</div>
+
+<div>
+    <label class="standard-label" for="contact-email">Email:</label>
+    <input type="email" id="contact-email" placeholder="example@email.com" required="">
+    </label><br>
+</div>
+
+<div>
+    <label class="standard-label" for="contact-phone">Phone:</label>
+    <input type="phone" id="contact-phone" required pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+  </label><br>
+</div>
+
+<div>
+    <label for="message">Your message:</label><br>
+    <textarea id="message" required  maxlength="240"></textarea>
+</div>
+
+<div>
+
+    <input type="checkbox" id="robot" name="robot">
+    <label for="robot">I am not a robot</label>
+</div>
+
+<input type="submit" value="Send a message">
+        </form>
+        </section>
+        <footer class="page-footer">
+                <p>
+                    Find me on
+                </p>
+                <div class="footer-icons">
+                    <img src="img/1964417_github_logo_media_social_icon.png" alt="Github" />
+                    <img src="img/5279123_tweet_twitter_twitter logo_icon-5.png" alt="Twitter" />
+                    <img src="img/104452_linkedin_icon.png" alt="LinkedIn" />
+                </div>    
+            </footer>
+            <script src="js/tota11y.min.js"></script>
+    </body>
